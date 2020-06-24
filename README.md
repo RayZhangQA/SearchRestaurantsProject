@@ -29,6 +29,10 @@
 	1. To run individual test: Eclipse >> expand src/test/java within package explorer >> right mouse click any test (.java file) within any testCases package >> Run As >> TestNG Test
 	2. To run group of tests within the test suit: Eclipse >> expand resources within package explorer >> right mouse click testng.xml >> Run As >> TestNG Suite
 
+### Check the execution results	
+
+	Check the report and execution results in "test-output" folder. 
+
 
 ###The introduction of SearchRestaurantsProject Automated Test Framework.
 
