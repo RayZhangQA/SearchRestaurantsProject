@@ -41,4 +41,6 @@ Personally, I am more interested in Continuous testing. Generally the Continuous
 
 ###	Please describe yourself using JSON.
 
+Please check the JSON file under the root of SearchRestaurantsProject which is called "DescribeMyself.json"
+
 
