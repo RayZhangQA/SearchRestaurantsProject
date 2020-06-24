@@ -1,105 +1,45 @@
-# RayZAutomationProject
+# Instructions
 
-# Building Framework From Scratch
+	Repo for Search Restaurants Project
 
-##### 1. Creating of Maven Project
 
-##### 2. Creating Base and Utility Functions
+## Getting Started
 
-##### 3. Organize Page Objects
+	These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-##### 4. Adding Tests
-	
-##### 5. Data Driving and Parameterizing Tests
+### Prerequisites
 
-##### 6. Converting into TestNG Framework
+	To run the project locally, please make sure to have the following downloaded and installed (if applicable):
 
-##### 7. TestNG Listeners
+	* [Java 8 JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) - any version of Java Standard Edition Development Kit 8
+	* [Eclipse](http://www.eclipse.org/downloads/eclipse-packages/) - any newer version of Eclipse IDE for Java EE Developers
 
-##### 8. Screenshot on Test Failures
+### Setup
 
-##### 9. Creating Excellent HTML reports for Test Results
-	
-##### 10. Jenkins - Continuous Integration
+	1. Download and install Java JDK
+	2. Download and extract Eclipse
+	3. Eclipse: Window >> Preferences >> Java >> Installed JREs >> select installed JREs >> Edit >> make sure that JRE Home points to C:\Program Files\Java\jdk1.8.0_xxx\jre directory
+	4. Eclipse: Help >> Eclipse Marketplace >> type testng in Find search box >> click install button for TestNG for Eclipse
+	5. Download and extract [SearchRestaurantsProject repo](https://github.com/rayzhangqa/SearchRestaurantsProject)
+	6. Copy/Paste SearchRestaurantsProject folder to your Eclipse's workspace folder
+	7. Eclipse: File >> Import >> Existing Maven Projects >> Next >> Root Directory should be your Eclipse's workspace\SearchRestaurantsProject folder (for example: C:\Users\username\Desktop\workspace\SearchRestaurantsProject) >> Finish
 
-# Creation of Maven Project
+### Running the tests
 
-##### 1. Create a Maven Project
+	1. To run individual test: Eclipse >> expand src/test/java within package explorer >> right mouse click any test (.java file) within any testCases package >> Run As >> TestNG Test
+	2. To run group of tests within the test suit: Eclipse >> expand resources within package explorer >> right mouse click testng.xml >> Run As >> TestNG Suite
 
-		>cd <eclipse-workspace>
-		>mvn archetype:generate -DgroupId=Academy -DartifactId=SearchRestaurantsProject -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 
-##### 2. Compatible with Eclipse
+###The introduction of SearchRestaurantsProject Automated Test Framework.
 
-		>cd <root directory of the new project>
-		>mvn eclipse:eclipse
-
-##### 3. Import the project to Eclipse
-
-* Open Eclipse
-* Files ==> Import... 
-* Select ==> Maven//Existing Maven Project ==> Next
-* Maven Projects ==> Browse ==> Project Root Folder ==> Select Folder ==> Finish
-* The project will be imported into Eclipse shortly.
-
->* src/test/java - All the test cases created here
->* src/main/java - All the utilities, base objects, data and etc.
->* pom.xml - the maven configure file
-
-##### 4. Add All Dependencies and Plugins to pom.xml
-
-* Selenium Dependency ==> search "Selenium Maven Information"
-
-		<dependency>
-			<groupId>org.seleniumhq.selenium</groupId>
-			<artifactId>selenium-java</artifactId>
-			<version>3.141.59</version>
-		</dependency>
-	
-* TestNG Dependency ==> search "TestNG Maven Dependency"
-
-		<dependency>
-			<groupId>org.testng</groupId>
-			<artifactId>testng</artifactId>
-			<version>6.8</version>
-			<scope>test</scope>
-		</dependency>
-
-* Save "pom.xml" will get all the dependencies added to the project local repository.
-	
-# Creating Base and Utility Functions
-
-##### 1. Create base java class in src/main/java
-
-##### 2. Create public void initializeDriver() method
-
-##### 3. java.lang.NullPointerException
-if (browserName == "chrome") - wrong. shouldn't use "==".
-
-extract the value from property file, need use browserName.equalsTo("String");
-
-* == is a reference comparison, i.e. both objects point to the same memory location
-* .equals() evaluates to the comparison of values in the objects
-
-##### 4. data.properties
-* each line ended without semicolon otherwise will cause the problem.
-
-# Creation page objects
-
-##### 1. Create base java class in src/main/java
-
-##### 2. Create public void initializeDriver() method
-
-##### 3. java.lang.NullPointerException
-if (browserName == "chrome") - wrong. shouldn't use "==".
-
-extract the value from property file, need use browserName.equalsTo("String");
-
-* == is a reference comparison, i.e. both objects point to the same memory location
-* .equals() evaluates to the comparison of values in the objects
-
-##### 4. data.properties
-* each line ended without semicolon otherwise will cause the problem.
+	Language: Java.  
+	IDE: Eclipse
+	Framework Type: Behavioral-driven by using Page Object Model design pattern.
+	POM: We maintained a class for every web page. 
+	Packages: All page classes are under pageObjects package. All test related classes are under testCases package.
+	TestNG: Using TestNG for Assertions, Grouping and Parallel execution.
+	Maven: For build, execution, and dependency. Integrating the TestNG dependency in the POM.xml.
+	Version Control Tool: use github as a repository to store my test scripts.
 
 	
 

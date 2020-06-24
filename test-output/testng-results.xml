@@ -2,34 +2,34 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="29595" started-at="2020-06-24T11:22:45Z" finished-at="2020-06-24T11:23:15Z">
+  <suite name="Suite" duration-ms="28572" started-at="2020-06-24T14:41:12Z" finished-at="2020-06-24T14:41:41Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="29595" started-at="2020-06-24T11:22:45Z" finished-at="2020-06-24T11:23:15Z">
+    <test name="Test" duration-ms="28572" started-at="2020-06-24T14:41:12Z" finished-at="2020-06-24T14:41:41Z">
       <class name="testCases.ValidateTitle">
-        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:testCases.ValidateTitle@3fb1549b]" name="basePageNavigation" duration-ms="298" started-at="2020-06-24T07:23:03Z" finished-at="2020-06-24T07:23:04Z">
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:testCases.ValidateTitle@3fb1549b]" name="basePageNavigation" duration-ms="304" started-at="2020-06-24T10:41:28Z" finished-at="2020-06-24T10:41:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
       </class> <!-- testCases.ValidateTitle -->
       <class name="testCases.ValidateSearchResult">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:testCases.ValidateSearchResult@932bc4a]" name="initialize" is-config="true" duration-ms="8181" started-at="2020-06-24T07:22:45Z" finished-at="2020-06-24T07:22:54Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testCases.ValidateSearchResult@932bc4a]" name="initialize" is-config="true" duration-ms="10135" started-at="2020-06-24T10:41:12Z" finished-at="2020-06-24T10:41:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="initialize()[pri:0, instance:testCases.ValidateTitle@3fb1549b]" name="initialize" is-config="true" duration-ms="9721" started-at="2020-06-24T07:22:54Z" finished-at="2020-06-24T07:23:03Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testCases.ValidateTitle@3fb1549b]" name="initialize" is-config="true" duration-ms="6115" started-at="2020-06-24T10:41:22Z" finished-at="2020-06-24T10:41:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="SearchRestaurants()[pri:0, instance:testCases.ValidateSearchResult@932bc4a]" name="SearchRestaurants" duration-ms="8719" started-at="2020-06-24T07:23:04Z" finished-at="2020-06-24T07:23:12Z">
+        <test-method status="PASS" signature="SearchRestaurants()[pri:0, instance:testCases.ValidateSearchResult@932bc4a]" name="SearchRestaurants" duration-ms="9408" started-at="2020-06-24T10:41:29Z" finished-at="2020-06-24T10:41:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchRestaurants -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.ValidateSearchResult@932bc4a]" name="teardown" is-config="true" duration-ms="147" started-at="2020-06-24T07:23:12Z" finished-at="2020-06-24T07:23:13Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.ValidateSearchResult@932bc4a]" name="teardown" is-config="true" duration-ms="353" started-at="2020-06-24T10:41:38Z" finished-at="2020-06-24T10:41:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.ValidateTitle@3fb1549b]" name="teardown" is-config="true" duration-ms="2504" started-at="2020-06-24T07:23:13Z" finished-at="2020-06-24T07:23:15Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.ValidateTitle@3fb1549b]" name="teardown" is-config="true" duration-ms="2222" started-at="2020-06-24T10:41:38Z" finished-at="2020-06-24T10:41:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

@@ -1,0 +1,54 @@
+
+{
+	"The Descrition of Myself"{
+		"name": "Ray",
+		"lastname": "Zhang",
+		"nationality": "Canadian",
+		"city": "Burlington, Ontario",
+		"address":"4639 Drever Road"
+
+		"contactInfo": {
+			"phone":"647-299-5699",
+			"email":"RayZhangQA@Gmail.com",
+			"websit":"http://rayzhangqa.github.io/",
+			"linkedin":"https://linkedin.com/in/RayZhangQA",
+			"github":"http://github.com/RayZhangQA"
+		},
+
+		"workingExperiences": {
+			"Oct 2016 - Present":{
+				"title":"SDET - Software Development Engineer in Test",
+				"company":"AT&T",
+				"team":"VODFlow Scrum Team"
+			},
+			"Apr 2014 - Sep 2016":{
+				"title":"Sr. QA Engineer and Team Leader",
+				"company":"QuickPlay Media Inc.",
+				"team":"MP5 Developing Team"
+			},
+			"Nov 2007 - Mar 2014":{
+				"title":"Quality Assurance Engineer",
+				"company":"QuickPlay Media Inc.",
+				"team":"Open Video Developing Team"
+			},
+
+		}
+
+		"academicEducation": {
+			"master":{
+				"degree":"Master of Information Technology",
+				"university":"Griffith University - Gold Coast Campus",
+				"uniWebSite":"https://www.griffith.edu.au/about-griffith/campuses-facilities/gold-coast",
+				"major":"Information Technology"
+			},
+			"bachelor":{
+				"degree":"Bachelor degree in Automation",
+				"university":"Shandong University",
+				"uniWebSite":"https://www.sdu.edu.cn/",
+				"major":"Automation Engineering"
+			},
+
+		}
+	}
+
+}
